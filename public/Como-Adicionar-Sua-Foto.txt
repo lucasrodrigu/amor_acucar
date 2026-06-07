@@ -1,0 +1,17 @@
+Instruções para Substituir as Imagens do Site (Amor e Açúcar)
+
+Para deixar o site com a sua cara, você pode substituir as seguintes fotos arrastando suas próprias imagens para a pasta "public" do editor à esquerda:
+
+1. FOTO PRINCIPAL ("Nossa História")
+   - Nome do arquivo: chef.jpg
+   - Onde aparece: Na seção "Nossa História", substituindo o perfil com moldura.
+
+2. TRÊS IMAGENS REDONDAS DO TOPO (Abaixo dos botões de agendamento e cardápio):
+   - Imagem da Esquerda: Salve como doces.jpg
+   - Imagem do Centro: Salve como centro.jpg
+   - Imagem da Direita: Salve como carrinho.jpg
+
+DICA:
+- Você pode usar formatos .jpg, .png ou .webp!
+- Caso não adicione nenhum arquivo, o site continuará exibindo as lindas imagens padrão automaticamente.
+- Quando você passa o mouse por cima das imagens no site, ele lhe dará uma dica visual sobre qual nome dar ao arquivo para substituí-lo!

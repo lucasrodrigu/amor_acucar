@@ -1,0 +1,6 @@
+{
+  "name": "Amor e Açúcar",
+  "description": "Amor e Açúcar – Confeitaria Artesanal por Thamires no Vale do Paraíba",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
