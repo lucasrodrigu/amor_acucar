@@ -54,7 +54,7 @@ export default function Hero() {
             id="doces"
             alt="Gourmet Brigadeiros"
             defaultUrl="https://images.unsplash.com/photo-1587314168485-3236d6710814?w=500&auto=format&fit=crop&q=80"
-            containerClassName="w-20 h-20 sm:w-28 sm:h-28 md:w-48 md:h-48 border-4 border-rosa shadow-lg hover:scale-105 transition-transform duration-300 shrink-0"
+            containerClassName="w-24 h-24 min-[375px]:w-28 min-[375px]:h-28 sm:w-36 sm:h-36 md:w-48 md:h-48 border-4 border-rosa shadow-lg hover:scale-105 transition-transform duration-300 shrink-0"
           />
 
           {/* Big Center Image */}
@@ -62,7 +62,7 @@ export default function Hero() {
             id="centro"
             alt="Chef Thamires Confeitaria"
             defaultUrl="https://images.unsplash.com/photo-1556217477-d3252514d53f?w=600&auto=format&fit=crop&q=80"
-            containerClassName="w-28 h-28 sm:w-40 sm:h-40 md:w-72 md:h-72 -translate-y-4 border-4 border-azul shadow-xl hover:scale-105 transition-transform duration-300 shrink-0"
+            containerClassName="w-32 h-32 min-[375px]:w-40 min-[375px]:h-40 sm:w-52 sm:h-52 md:w-72 md:h-72 -translate-y-4 border-4 border-azul shadow-xl hover:scale-105 transition-transform duration-300 shrink-0"
           />
 
           {/* Third */}
@@ -70,7 +70,7 @@ export default function Hero() {
             id="carrinho"
             alt="Bike e Carinho de Doces"
             defaultUrl="https://images.unsplash.com/photo-1510440187513-e4d070b435ff?w=500&auto=format&fit=crop&q=80"
-            containerClassName="w-20 h-20 sm:w-28 sm:h-28 md:w-48 md:h-48 border-4 border-rosa shadow-lg hover:scale-105 transition-transform duration-300 shrink-0"
+            containerClassName="w-24 h-24 min-[375px]:w-28 min-[375px]:h-28 sm:w-36 sm:h-36 md:w-48 md:h-48 border-4 border-rosa shadow-lg hover:scale-105 transition-transform duration-300 shrink-0"
           />
         </div>
 
