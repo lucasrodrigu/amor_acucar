@@ -6,7 +6,7 @@ export default function Footer() {
   const socialLinks = [
     { name: 'Instagram', url: '#', icon: <Instagram className="w-5 h-5" /> },
     { name: 'Facebook', url: '#', icon: <Facebook className="w-5 h-5" /> },
-    { name: 'WhatsApp', url: 'https://wa.me/5512999999999', icon: <MessageSquare className="w-5 h-5" /> },
+    { name: 'WhatsApp', url: 'https://wa.me/5512981859083', icon: <MessageSquare className="w-5 h-5" /> },
     { name: 'TikTok', url: '#', icon: <Music className="w-5 h-5" /> },
   ];
 
@@ -52,7 +52,7 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-rosa shrink-0 mt-0.5" />
-                <span>(12) 99999-9999</span>
+                <span>(12) 98185-9083</span>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-rosa shrink-0 mt-0.5" />

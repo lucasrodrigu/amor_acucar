@@ -15,28 +15,32 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           
           {/* Images Column */}
-          <div className="relative flex justify-center">
+          <div className="flex justify-center w-full">
             
-            {/* Main Image frame with uploaded chef photo */}
-            <div className="w-full max-w-md aspect-square rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white bg-white relative z-10">
-              <ChefPhoto className="w-full h-full" />
-            </div>
-
-            {/* Overlapping Badge Card */}
-            <div className="absolute bottom-[-20px] right-[-10px] md:right-[20px] bg-white rounded-2xl p-5 shadow-xl flex items-center gap-4 z-20 border border-rosa/10 hover:translate-y-[-5px] transition-transform duration-300">
-              <div className="w-12 h-12 bg-rosa-light rounded-xl flex items-center justify-center text-3xl">
-                🏆
+            {/* Wrapper to bind image and absolute badge within the same bounding box */}
+            <div className="relative w-full max-w-md aspect-square">
+              
+              {/* Main Image frame with uploaded chef photo */}
+              <div className="w-full h-full rounded-[2rem] overflow-hidden shadow-2xl border-4 border-white bg-white relative z-10">
+                <ChefPhoto className="w-full h-full" />
               </div>
-              <div className="flex flex-col">
-                <span className="font-sans font-bold text-xl md:text-2xl text-rosa-dark leading-none">
-                  +500
-                </span>
-                <span className="font-sans text-xs text-texto-leve font-medium">
-                  pedidos entregues
-                </span>
-              </div>
-            </div>
 
+              {/* Overlapping Badge Card */}
+              <div className="absolute bottom-[-15px] -right-4 sm:-right-6 bg-white rounded-2xl p-4 sm:p-5 shadow-xl flex items-center gap-3 sm:gap-4 z-20 border border-rosa/10 hover:translate-y-[-5px] transition-transform duration-300">
+                <div className="w-10 h-10 sm:w-12 sm:h-12 bg-rosa-light rounded-xl flex items-center justify-center text-2xl sm:text-3xl">
+                  🏆
+                </div>
+                <div className="flex flex-col">
+                  <span className="font-sans font-bold text-lg sm:text-2xl text-rosa-dark leading-none">
+                    +500
+                  </span>
+                  <span className="font-sans text-[10px] sm:text-xs text-texto-leve font-medium">
+                    pedidos entregues
+                  </span>
+                </div>
+              </div>
+
+            </div>
           </div>
 
           {/* Texts Column */}

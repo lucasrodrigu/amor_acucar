@@ -23,10 +23,10 @@ export default function Header() {
   ];
 
   return (
-    <header className={`sticky top-0 z-50 transition-all duration-300 ${
+    <header className={`sticky top-0 z-50 transition-all duration-300 bg-[#FBECF2] border-b border-rosa/10 shadow-sm ${
       scrolled || isOpen
-        ? 'bg-[#FBECF2] shadow-md border-b border-rosa/10 py-3' 
-        : 'bg-transparent py-5'
+        ? 'py-3 shadow-md' 
+        : 'py-4'
     }`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         
@@ -60,7 +60,7 @@ export default function Header() {
         {/* ACTIONS (WHATSAPP ICON BUTTON & MOBILE MENU) */}
         <div className="flex items-center gap-4">
           <a
-            href="https://wa.me/5512999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20doces%20da%20Amor%20e%20Açúcar!"
+            href="https://wa.me/5512981859083?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20doces%20da%20Amor%20e%20Açúcar!"
             target="_blank"
             rel="noopener noreferrer"
             className="w-11 h-11 bg-[#25D366] hover:bg-[#1ebe5b] text-white flex items-center justify-center rounded-full shadow-md hover:shadow-lg hover:scale-105 transition-all duration-200"
@@ -100,7 +100,7 @@ export default function Header() {
             ))}
             <hr className="border-rosa/10" />
             <a
-              href="https://wa.me/5512999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20doces%20da%20Amor%20e%20Açúcar!"
+              href="https://wa.me/5512981859083?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20doces%20da%20Amor%20e%20Açúcar!"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#25D366] text-white flex items-center justify-center gap-2.5 p-3.5 rounded-full font-sans font-semibold shadow-md active:scale-95 transition-all hover:bg-[#1ebe5b]"

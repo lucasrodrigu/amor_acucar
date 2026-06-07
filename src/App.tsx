@@ -63,7 +63,7 @@ export default function App() {
         
         {/* Pulsing Button */}
         <a
-          href="https://wa.me/5512999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20doces%20da%20Amor%20e%20Açúcar!"
+          href="https://wa.me/5512981859083?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20os%20doces%20da%20Amor%20e%20Açúcar!"
           target="_blank"
           rel="noopener noreferrer"
           className="relative w-14 h-14 bg-[#25D366] hover:bg-[#1ebe5b] rounded-full flex items-center justify-center text-white shadow-xl hover:shadow-[0_10px_25px_rgba(37,211,102,0.4)] active:scale-95 hover:-translate-y-1 transition-all duration-300 group"

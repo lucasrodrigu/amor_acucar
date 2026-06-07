@@ -31,7 +31,7 @@ export default function Hero() {
         {/* Cta Buttons */}
         <div className="flex flex-col items-center gap-4 mb-20">
           <a
-            href="https://wa.me/5512999999999?text=Olá!%20Gostaria%20de%20agendar%20um%20pedido!"
+            href="https://wa.me/5512981859083?text=Olá!%20Gostaria%20de%20agendar%20um%20pedido!"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center bg-gradient-to-r from-rosa-mid to-rosa-dark text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl hover:-translate-y-1 active:scale-95 transition-all duration-300 gap-3 group w-64"
@@ -48,13 +48,13 @@ export default function Hero() {
         </div>
 
         {/* Image Grid Overlapping */}
-        <div className="flex justify-center items-center gap-4 md:gap-6 mt-6 select-none animate-fade-in">
+        <div className="flex justify-center items-center gap-2 sm:gap-4 md:gap-6 mt-6 select-none animate-fade-in w-full max-w-full px-2">
           {/* Sides */}
           <HeroPhoto 
             id="doces"
             alt="Gourmet Brigadeiros"
             defaultUrl="https://images.unsplash.com/photo-1587314168485-3236d6710814?w=500&auto=format&fit=crop&q=80"
-            containerClassName="w-36 h-36 md:w-48 md:h-48 border-4 border-rosa shadow-lg hover:scale-105 transition-transform duration-300"
+            containerClassName="w-20 h-20 sm:w-28 sm:h-28 md:w-48 md:h-48 border-4 border-rosa shadow-lg hover:scale-105 transition-transform duration-300 shrink-0"
           />
 
           {/* Big Center Image */}
@@ -62,7 +62,7 @@ export default function Hero() {
             id="centro"
             alt="Chef Thamires Confeitaria"
             defaultUrl="https://images.unsplash.com/photo-1556217477-d3252514d53f?w=600&auto=format&fit=crop&q=80"
-            containerClassName="w-[216px] h-[216px] md:w-72 md:h-72 -translate-y-4 border-4 border-azul shadow-xl hover:scale-105 transition-transform duration-300"
+            containerClassName="w-28 h-28 sm:w-40 sm:h-40 md:w-72 md:h-72 -translate-y-4 border-4 border-azul shadow-xl hover:scale-105 transition-transform duration-300 shrink-0"
           />
 
           {/* Third */}
@@ -70,7 +70,7 @@ export default function Hero() {
             id="carrinho"
             alt="Bike e Carinho de Doces"
             defaultUrl="https://images.unsplash.com/photo-1510440187513-e4d070b435ff?w=500&auto=format&fit=crop&q=80"
-            containerClassName="w-36 h-36 md:w-48 md:h-48 border-4 border-rosa shadow-lg hover:scale-105 transition-transform duration-300"
+            containerClassName="w-20 h-20 sm:w-28 sm:h-28 md:w-48 md:h-48 border-4 border-rosa shadow-lg hover:scale-105 transition-transform duration-300 shrink-0"
           />
         </div>
 
